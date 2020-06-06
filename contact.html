@@ -56,8 +56,7 @@
                         </li>
                     </ul>
                 </div>
-        </div>
-        </nav>
+            </nav>
         </div>
         <div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax"
             id="bloc-1-hero">
@@ -92,34 +91,34 @@
                     <div class="col-sm-6">
                         <form id="form_1">
                             <div class="form-group">
-                                <label>
+                                <label for="name">
                                     Nom
                                 </label>
                                 <input id="name" class="form-control" required />
                             </div>
                             <div class="form-group">
-                                <label>
+                                <label for="society-name">
                                     Nom de votre société
                                 </label>
                                 <input id="society-name" class="form-control" required />
                             </div>
                             <div class="form-group">
-                                <label>
+                                <label for="email">
                                     Adresse email
                                 </label>
                                 <input id="email" class="form-control" type="email" required />
                             </div>
                             <div class="form-group">
-                                <label>
+                                <label for="tel">
                                     Téléphone
                                 </label>
                                 <input id="tel" class="form-control" type="tel" />
                             </div>
                             <div class="form-group">
-                                <label>
+                                <label for="info">
                                     Comment nous avez-vous connu ?
                                 </label>
-                                <select name="info" required class="form-control" id="input_504">
+                                <select name="info" required class="form-control" id="info">
                                     <option value="">--choisissez une option--</option>
                                     <option value="recherche goolge">recherche google</option>
                                     <option value="bouche à oreille">bouche à oreille</option>
@@ -127,10 +126,9 @@
                                 </select>
                             </div>
                             <div class="form-group">
-                                <label>
-                                    Expliquer en quelques mots votre projet, présenter votre société<br>
-                                </label><textarea id="message" class="form-control" rows="4" cols="50"
-                                    required></textarea>
+                                <label for="message">Expliquer en quelques mots votre projet, présenter votre société.</label>
+                                <textarea id="message" class="form-control" rows="4" cols="50"
+                                    required> </textarea>
                             </div>
                             <button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
                                 type="submit">
